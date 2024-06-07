@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*
+------------------------------------------------------------------------
+HEADER
+------------------------------------------------------------------------
+*/
+
+.header{
+    background-color: #006241;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 5px 20px #000000;
+    position: fixed;
+    z-index: 100;
+}
+
+/*contenedor logo*/
+.header .header__container-img {
+    padding: 5px;
+}
+
+/*logo*/
+.header .header__container-img .header__logo {
+    width: 60px;
+}
+
+/*contenedor opciones*/
+.header__container-links, .header__container-user{
+    display: none;
+}
+
+.header__container-list{
+    display: block;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+/*link de las opciones*/
+.header .header__container-links .header__link{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .header__container-links .header__link:hover{
+    color: burlywood;
+}
+/*contenedor usuario*/
+
+.header .header__container-user{ 
+    padding: 5px;
+}
+/*link de usuario*/
+
+.header .header__container-user .header__user-link{
+    color: burlywood;
+    font-size: 20px;
+    background-color: #04291b81;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
