@@ -78,3 +78,44 @@ HEADER
 
 
 
+/*
+------------------------------------------------------------------------
+MAIN
+------------------------------------------------------------------------
+*/
+
+.main{
+    margin-top: 40%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*contenedor de textos*/
+.main__container-text {
+    margin: 5px 20px;
+}
+
+/*titulo*/
+.main__container-text .main__title {
+    font-weight: normal;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+/*letra verde del titulo*/
+.main__container-text  #green-letter {
+    color: #006241;
+}
+
+/*párrafo*/
+.main__container-text .main__paragraph {
+    font-size: 20px;
+}
+
+/*contenedor de imagen*/
+.main__container-img {
+    display: none;
+}
