@@ -356,3 +356,67 @@ SECTION CARDS
 .cards .cards__article .btn__container .cards__btn:hover{
     background-color: #04291b;
 }
+
+/*
+------------------------------------------------------------------------
+FOOTER BLOCK
+------------------------------------------------------------------------
+*/
+
+.footer {
+    background-color: #010e09;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/*contenedor iniciar sesion - registrate*/
+
+.footer .footer__container-loginup {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+}
+
+/*links*/
+.footer__container-loginup  .footer__link{
+    color: #006241;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer .footer__container-loginup  .footer__link:hover{
+    border-bottom: 2px solid #006241;
+}
+
+/*contenedor contactanos*/
+.footer .footer__container-contact{
+    height: fit-content;
+    margin: 10px 5px;
+}
+/*links*/
+.footer .footer__container-contact .footer__link {
+    color: #006241;
+    font-size: 20px;
+}
+.footer .footer__container-contact .footer__link:hover{
+    border-bottom: 2px solid #006241;
+}
+
+/*iconos*/
+.footer .footer__container-icons{
+    margin: 10px 5px;
+}
+
+.footer .footer__container-icons .bi-facebook, .bi-whatsapp, .bi-twitter {
+    color: #006241;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer .footer__container-icons .bi-facebook:hover, .bi-whatsapp:hover, .bi-twitter:hover{
+    font-size: 42px;
+    cursor: pointer;
+}
