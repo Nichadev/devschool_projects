@@ -151,3 +151,111 @@ SECTION GALERIA
     width: 90%;
 }
 
+
+
+/*
+------------------------------------------------------------------------
+CONTACT BLOCK
+------------------------------------------------------------------------
+*/
+
+/*section*/
+.contactus {
+    background-color: #010e09;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+/*titulo*/
+.contactus .contactus__title{
+    width: max-content;
+    margin: 20px 5px;
+    font-size: 30px;
+}
+
+/*formulario*/
+.contactus .contactus__form {
+    background-color: #006241;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/*contenedor del input y label*/ 
+.contactus__form
+.contactus__container-inputs {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*label del correo*/
+.contactus__container-inputs
+.contactus__label {
+    font-size: 20px;
+}
+
+/*input del correo*/
+.contactus__container-inputs
+.contactus__input{
+    margin-top: 10px;
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #010e0980;
+    color: #caf1e2;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*contenedor del comentario*/
+.contactus__container-comment{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*label del comentario*/
+
+.contactus__container-comment
+.contactus__label{
+    font-size: 20px;
+}
+
+/*input del comentario*/
+
+.contactus__container-comment
+.contactus__textarea{
+    margin-top: 10px;
+    width: 100%;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #010e0980;
+    color: #86e9c3;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*boton enviar*/
+.contactus__form .contactus__button{
+    background-color: transparent;
+    border: 2px solid #c3f5e2;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px auto;
+    color: #c3f5e2; ;
+}
+.contactus__form .contactus__button:hover{
+    background-color: #010e0979;
+}
