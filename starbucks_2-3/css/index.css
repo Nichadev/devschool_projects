@@ -119,3 +119,35 @@ MAIN
 .main__container-img {
     display: none;
 }
+
+
+/*
+------------------------------------------------------------------------
+SECTION GALERIA
+------------------------------------------------------------------------
+*/
+
+/*section*/
+.gallery {
+    background-color: #006241;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+/*imagenes*/
+.gallery .gallery__img {
+    width: 90%;
+}
+
+.gallery #img1 {
+    width: 90%;
+}
+
+.gallery #img3 {
+    width: 90%;
+}
+
