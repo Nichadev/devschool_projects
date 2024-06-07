@@ -259,3 +259,100 @@ CONTACT BLOCK
 .contactus__form .contactus__button:hover{
     background-color: #010e0979;
 }
+
+
+/*
+----------------------------------------------------------------------------
+SECTION CARDS
+----------------------------------------------------------------------------
+*/
+
+/*section*/
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+/*article*/
+.cards .cards__article {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #006241;
+    color: antiquewhite;
+    border-radius: 10px;
+    position: relative;
+}
+/*porcentaje*/
+
+.cards .cards__article .cards__porcent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    right: -5%;
+    top: -5%;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}*/
+
+/*contenedor de la imagen*/
+.cards .cards__article .img__container{
+    display: flex;
+}
+/*imagen*/
+.cards .cards__article .img__container .cards__img{
+    width: 100%;
+}
+
+/*contenedor de texto*/
+.cards .cards__article .text__container {
+    padding: 5px 5px;
+}
+/*titulo*/
+.cards .cards__article .text__container .cards__title {
+    padding: 10px 5px;
+    font-size: 30px;
+}
+
+/*letra amarilla (span) del titulo*/
+.cards .cards__article .text__container .cards__title .yellow-letter {
+    color: yellow;
+}
+
+/*párrafo*/
+.cards .cards__article .text__container .cards__paragraph{
+    padding: 10px 5px; 
+    font-size: 17px;
+}
+
+/*contenedor de los botones*/
+.cards .cards__article .btn__container {
+    padding: 10px;
+    margin: 10px 5px;
+    width: auto;
+}
+
+/*botones*/
+.cards .cards__article .btn__container .cards__btn{
+    border: none;
+    background-color: #010e097e;
+    border-radius: 7px;
+    padding: 10px;
+    width: max-content;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.cards .cards__article .btn__container .cards__btn:hover{
+    background-color: #04291b;
+}
