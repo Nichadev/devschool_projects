@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="adivina_num.js"></script>
+    <script src="carrito.js"></script>
+    <script src="objeto.js"></script>
+    <script src="pick_color.js"></script>
+    <title>Prueba con JS</title>
+</head>
+<body>
+    
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <!--boton de adivinar el numero-->
+                <button class="btn btn-warning mt-2" onclick="adivinaNum()">
+                    Adivina el número
+                </button>
+                <p id="resultado"></p>
+                <!--
+                como le hago para que el mensaje de 'resultado'
+                aparezca abajo del boton? porq me aparece en el medio
+                de la pagina y no quiero eso.
+                -->
+            </div>
+            <div class="col">
+                <!--boton de carrito de compras-->
+                <button class="btn btn-warning mt-2" onclick="comprar()">Carrito de compras v.0</button>
+                <p id="lista"></p>
+            </div>
+            <div class="col">
+                <!--objetos-->
+                <button class="btn btn-warning mt-2" onclick="datos()">Mostrar datos (object)</button>
+                <p id="datos"></p>
+            </div>
+        </div>
+      </div>
+    
+    <!--pick color-->
+    <div class="container mt-5 text-center">
+        <label class="form-label">Color picker</label>
+        <input type="color" value="#e22500" title="Seleccione un color"
+        id="inputColor" class="form-control form-control-color mb-3 w-100">
+        <button id="boton" class="btn btn-primary w-100">
+            Visualizar
+        </button>
+        <p id="textoHexa" class="text-center">#E22500</p>
+        <div id="cardColor" class="card text-center p-5" style="background-color: #e22500;"></div>
+    </div>
+    <!--
+    no me anda el pick color, me da el siguiente error
+    'Uncaught TypeError: boton is null
+    <anonymous> http://127.0.0.1:5500/pick_color.js:6'
+    -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

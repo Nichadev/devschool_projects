@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppins-black;
+    src: url(../fonts/Poppins-Black.ttf);
+}
+
+.header{
+    background-color: #5865f2;
+    top: 0;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-container{
+    width: 40%;
+    margin: 15px 10px;
+}
+.header__logo-container .discord{
+    width: 100%;
+}
+.header__btn-container{    
+    margin: 10px 10px;
+}
+.header__btn-container .btn-list{
+    background-color: transparent;
+    border: none;
+}
+.header__btn-container .bi-list{
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+/*main*/
+.main{
+    background-color: #5865f2;
+    margin-top: 20%;
+
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main__text-container .main__title{
+    font-family: "Abcgintonord 800", sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    border: solid 2px blue;
+    margin: 10px 10px;
+}
+
+.main__text-container .main__paragraph{
+    color: aliceblue;
+    font-family: "Abcgintonord 800", sans-serif;
+    margin: 10px 10px;
+    font-size: 15px;
+}
+
+.main__btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 15px;
+}
+
+.main__btn-container .main__btn{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: none;
+}
+
+.main__img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+/*
+SECTIONS
+*/
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.article__cards-container{
+    border: 2px red solid;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.article__img-card{
+    width: 100%;
+}
+.article__title-card{
+    font-family: poppins-bold;
+    font-size: 23px;
+    color: #333232;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.article_paragraph-card {
+    font-family: poppins-light;
+    color: gray;
+}
+
+.article__subcard{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.article__title-subcard{
+    font-family: poppins-bold;
+    color: #333232;
+}
+
+.article__btn-subcard{
+    background-color: #5865f2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.footer {
+    margin-top:30px;
+}
